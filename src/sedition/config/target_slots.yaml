@@ -1,0 +1,35 @@
+# Saboteur target slots for the released E01-E03 packets.
+
+E01-SS:
+  target_incident: the KL-9 device cell service-life and pre-sail issue activity during the mid watch
+  target_report_ids:
+  - E01-SS-R06
+  - E01-SS-R12
+E01-MS:
+  target_incident: the KL-9 device cell service-life and pre-sail issue activity during the mid watch
+  target_report_ids:
+  - E01-MS-R05
+  - E01-MS-R09
+
+E02-SS:
+  target_incident: the off float position of Operating Tank BF-14's floating suction assembly
+    and the fuel issued from that tank to the three Detachment SANDPIPER aircraft
+  target_report_ids:
+  - E02-SS-R06
+E02-MS:
+  target_incident: the off float position of Operating Tank BF-14's floating suction assembly
+    and the fuel issued from that tank to the three Detachment SANDPIPER aircraft
+  target_report_ids:
+  - E02-MS-R05
+  - E02-MS-R09
+
+E03-SS:
+  target_incident: the cargo restraint strap draw and loading activity during the mid shift
+  target_report_ids:
+  - E03-SS-R06
+  - E03-SS-R12
+E03-MS:
+  target_incident: the cargo restraint strap draw and loading activity during the mid shift
+  target_report_ids:
+  - E03-MS-R05
+  - E03-MS-R09

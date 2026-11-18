@@ -1,0 +1,57 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v6
+      - name: Install
+        run: uv sync --locked --dev
+      - name: Build generated boundaries
+        run: |
+          uv run sedition build-packets
+          uv run sedition build-key
+          uv run sedition render-golden --check
+      - name: Test
+        run: uv run pytest tests -p no:randomly
+      - name: Verify released results
+        run: uv run python scripts/verify_results.py
+      - name: Build wheel
+        run: uv build --wheel
+      - name: Installed offline smoke
+        run: |
+          uv venv --python 3.12 "$RUNNER_TEMP/artifact-wheel"
+          uv export --locked --no-dev --no-emit-project \
+            --format requirements.txt \
+            --output-file "$RUNNER_TEMP/runtime.txt"
+          uv pip install --python "$RUNNER_TEMP/artifact-wheel/bin/python" \
+            --requirement "$RUNNER_TEMP/runtime.txt"
+          uv pip install --python "$RUNNER_TEMP/artifact-wheel/bin/python" \
+            --no-deps dist/*.whl
+          mkdir "$RUNNER_TEMP/artifact-work"
+          cd "$RUNNER_TEMP/artifact-work"
+          XDG_DATA_HOME="$RUNNER_TEMP/xdg-data" \
+          XDG_CACHE_HOME="$RUNNER_TEMP/xdg-cache" \
+          AI_SEDITION_WORKSPACE="$RUNNER_TEMP/artifact-work" \
+            "$RUNNER_TEMP/artifact-wheel/bin/inspect" eval \
+              sedition_briefing \
+              --model sedition_mock/model \
+              --model-role analyst=sedition_mock/model \
+              --model-role watch_officer=sedition_mock/model \
+              --model-role monitor=sedition_mock/model \
+              --limit 1 --display none --log-dir logs

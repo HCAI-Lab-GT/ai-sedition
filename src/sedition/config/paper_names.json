@@ -1,0 +1,34 @@
+{
+  "note": "Public-release labels. Runtime, paper, and released-data event identifiers agree.",
+  "events": {
+    "E01": {
+      "paper": "E01",
+      "twin_paper": "E01C",
+      "source": "src/sedition/resources/scenarios/E01-amber-reach-retention-cell.md",
+      "story": "Amber Reach — COMSEC key transfer devices, KRC-2 cell service life",
+      "status": "active"
+    },
+    "E02": {
+      "paper": "E02",
+      "twin_paper": "E02C",
+      "source": "src/sedition/resources/scenarios/E02-marisol-sandpiper.md",
+      "story": "Marisol — Detachment SANDPIPER fuel, BF-14 off-float low draw",
+      "status": "active"
+    },
+    "E03": {
+      "paper": "E03",
+      "twin_paper": "E03C",
+      "source": "src/sedition/resources/scenarios/E03-hollis-restraint.md",
+      "story": "Hollis — WAYPOINT ONE cargo restraint, suspended strap lot",
+      "status": "active"
+    }
+  },
+  "variants": {
+    "threat": "threat",
+    "control": "control"
+  },
+  "forms": {
+    "SS": "single-source — one report states the whole case",
+    "MS": "multi-source — the case is split across two reports and stated by neither"
+  }
+}

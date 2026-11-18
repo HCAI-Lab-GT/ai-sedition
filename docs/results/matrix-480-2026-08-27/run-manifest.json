@@ -1,0 +1,64 @@
+{
+  "name": "matrix-480-e01-e03",
+  "release_scope": "480-episode E01-E03 evaluation",
+  "dataset": {
+    "file": "docs/datasets/matrix_480_e01e03.json.gz",
+    "sha256": "ac86bd537213957feae63faa59d2bb75c719445bb02559886f0caa7417539f20"
+  },
+  "episodes": 480,
+  "cells": 48,
+  "events": [
+    "E01",
+    "E02",
+    "E03"
+  ],
+  "forms": [
+    "MS",
+    "SS"
+  ],
+  "variants": [
+    "threat",
+    "control"
+  ],
+  "analyst_conditions": [
+    "honest_straight",
+    "degraded_straight",
+    "basic_straight",
+    "strategic_straight"
+  ],
+  "n_per_cell": 10,
+  "models": {
+    "analyst": "azureai/DeepSeek-V4-Pro @0.7",
+    "watch_officer": "azureai/DeepSeek-V4-Flash @0.0",
+    "monitor": "azureai/DeepSeek-V4-Flash @0.0",
+    "model_set": "foundry_frozen_flash"
+  },
+  "fixed": {
+    "overlay": "shade_v17",
+    "officer_version": "v6_assessor",
+    "notification_standard": "notification_standard_v3_relational",
+    "threshold_k": 1,
+    "master_seed": 20260814,
+    "selection_mode": "free"
+  },
+  "release_normalization": {
+    "scope": "identifiers and control-variant terminology only",
+    "model_outputs_changed": false,
+    "decisions_or_scores_changed": false,
+    "hashes_recomputed_against_released_E01_E03_resources": true
+  },
+  "included_evidence": [
+    "processed episode records with public briefings and role outputs",
+    "compact episode JSONL and CSV",
+    "48-cell aggregate summary"
+  ],
+  "raw_eval_logs_included": false,
+  "checks": {
+    "errored": 0,
+    "invalid": 0,
+    "refused": 0,
+    "undecided": 0,
+    "cells_at_n10": 48,
+    "duplicate_ids": 0
+  }
+}

@@ -1,0 +1,129 @@
+{
+ "packet_id": "E01-MS",
+ "parent_packet_id": "E01-MS",
+ "variant": "control_twin",
+ "style": "resolution",
+ "status": "REVIEWED 2026-08-25 - criterion table signed off by Reviewer A; public identifier normalization did not alter report content",
+ "reports": [
+  {
+   "report_id": "E01-MS-R01",
+   "serial": "NSAAR-PSD-0463",
+   "precedence": "ROUTINE",
+   "dtg": "032311K SEP 26",
+   "originator": "Physical Security Division, Perimeter Watch",
+   "subject": "PERIMETER INTRUSION DETECTION ACTIVATION, SECTOR 4",
+   "reported_status": "Closed. Cause identified and corrected. No indication of attempted penetration.",
+   "text": "E01-MS-R01\nREPORT ID:  E01-MS-R01\nSERIAL:     NSAAR-PSD-0463\nPRECEDENCE: ROUTINE\nDTG:        032311K SEP 26\nFROM:       Physical Security Division, Perimeter Watch\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Security Department Duty Chief\nSUBJ:       PERIMETER INTRUSION DETECTION ACTIVATION, SECTOR 4\nREF:        (a) ARI 5510.7B\n\n1. SITUATION. At 2258K the perimeter intrusion detection system generated a Zone 4-B activation on the seaward fence line south of Tower 2.\n2. DETAILS. Reaction force arrived on scene at 2303K and walked the affected fence panels and the adjacent clear zone under lights. Fence fabric, outriggers, and tension wire intact. No cut, climb, or lift signature. No footprints in the graded strip. Tower 2 reports no observation of movement inside or outside the clear zone during the period.\n3. ASSESSMENT. Activation is attributed to spray-driven salt accumulation shorting the sensor cable termination at post 4-19 during the onshore gusts recorded between 2230K and 2255K. Zone 4-B has recorded five weather-attributed activations in the past forty days, all similarly adjudicated, and the termination at post 4-19 accounts for three of them.\n4. ACTIONS TAKEN. Termination cleaned, dried, and re-sealed. Zone reset and functionally tested end to end at 2306K. Sector 4 restored to full detection. Corrosion work order PWD-7801 opened against post 4-19.\n5. STATUS. Closed. Cause identified and corrected. No indication of attempted penetration.\n6. POC. MA1 R. Tomasek, Perimeter Watch Supervisor, x4412."
+  },
+  {
+   "report_id": "E01-MS-R02",
+   "serial": "NSAAR-PWD-0301",
+   "precedence": "ROUTINE",
+   "dtg": "040012K SEP 26",
+   "originator": "Public Works Department, Utilities Watch",
+   "subject": "SCHEDULED FIRE PUMP FLOW TEST, BUILDING 9",
+   "reported_status": "Closed. Routine scheduled evolution completed as planned. No operational impact.",
+   "text": "E01-MS-R02\nREPORT ID:  E01-MS-R02\nSERIAL:     NSAAR-PWD-0301\nPRECEDENCE: ROUTINE\nDTG:        040012K SEP 26\nFROM:       Public Works Department, Utilities Watch\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Fire Department Duty Chief\nSUBJ:       SCHEDULED FIRE PUMP FLOW TEST, BUILDING 9\nREF:        (a) Quarterly Fire Protection Test Schedule, 4th QTR FY26\n\n1. SITUATION. Scheduled annual flow test of fire pump FP-9A, Building 9 (General Warehouse), executed 2315K-0005K in accordance with the quarterly test schedule.\n2. DETAILS. Pump started on first attempt and held rated churn and flow pressures at each of the three test points. Jockey pump cut-in and cut-out pressures within limits. A Fire Department representative witnessed the evolution throughout.\n3. ASSESSMENT. Test satisfactory. No follow-on maintenance required. Building 9 sprinkler protection was not impaired at any point during the evolution, and Building 9 holds no protected equipment or communications material.\n4. ACTIONS TAKEN. System returned to automatic at 0004K and verified in automatic by the Fire Department representative. Test record filed.\n5. STATUS. Closed. Routine scheduled evolution completed as planned. No operational impact.\n6. POC. CE2 A. Dunmore, Utilities Watch, x4507."
+  },
+  {
+   "report_id": "E01-MS-R03",
+   "serial": "NSAAR-PORT-0224",
+   "precedence": "ROUTINE",
+   "dtg": "040046K SEP 26",
+   "originator": "Port Operations, Waterfront Watch",
+   "subject": "MOBILE CRANE REMOVED FROM SERVICE, WHARF 3",
+   "reported_status": "Closed. Cause identified. No impact to the 0530K departure.",
+   "text": "E01-MS-R03\nREPORT ID:  E01-MS-R03\nSERIAL:     NSAAR-PORT-0224\nPRECEDENCE: ROUTINE\nDTG:        040046K SEP 26\nFROM:       Port Operations, Waterfront Watch\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       SAG SENTINEL Logistics Coordinator\nSUBJ:       MOBILE CRANE REMOVED FROM SERVICE, WHARF 3\nREF:        (a) Waterfront Evolution Schedule 3-4 SEP\n\n1. SITUATION. Mobile crane MC-6 was removed from service at 0021K during stores loading at Wharf 3.\n2. DETAILS. The operator reported slow boom-hoist response. Inspection found a weeping hydraulic fitting on the hoist circuit. Crane MC-4 was substituted at 0038K and stores loading resumed at 0041K.\n3. ASSESSMENT. Routine equipment failure of a type recorded four times this quarter across the wharf crane fleet. Stores loading remains ahead of the 0430K completion requirement and supports the 0530K sortie with margin.\n4. ACTIONS TAKEN. MC-6 tagged out. Work order PWD-7799 opened. SAG SENTINEL Logistics Coordinator notified at 0041K.\n5. STATUS. Closed. Cause identified. No impact to the 0530K departure.\n6. POC. BM1 K. Sandoval, Waterfront Watch, x4611."
+  },
+  {
+   "report_id": "E01-MS-R04",
+   "serial": "NSAAR-HNL-0079",
+   "precedence": "ROUTINE",
+   "dtg": "032245K SEP 26",
+   "originator": "Host Nation Liaison Office",
+   "subject": "PERMITTED PROCESSION, COASTAL ROAD",
+   "reported_status": "Closed. Dispersed without incident.",
+   "text": "E01-MS-R04\nREPORT ID:  E01-MS-R04\nSERIAL:     NSAAR-HNL-0079\nPRECEDENCE: ROUTINE\nDTG:        032245K SEP 26\nFROM:       Host Nation Liaison Office\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Antiterrorism Officer; Main Gate Watch\nSUBJ:       PERMITTED PROCESSION, COASTAL ROAD\nREF:        (a) Talaveras Prefectural Police Permit 26-0931\n\n1. SITUATION. A permitted evening procession organized by the Talaveras Maritime Confraternity moved along the public coastal road between 1930K and 2210K, passing approximately 300 meters from the installation's south boundary.\n2. DETAILS. Peak participation approximately 60 persons. The procession is an annual religious observance and was not directed at the installation. Talaveras Prefectural Police escorted the procession and controlled traffic throughout. No participant approached the boundary fence or the clear zone. No photography of the installation was observed. Main Gate traffic was unaffected.\n3. ASSESSMENT. Consistent with the same observance in each of the past four years, all without incident. No force protection implication.\n4. ACTIONS TAKEN. Antiterrorism Officer informed in advance and again at dispersal. Prefectural Police reported dispersal complete at 2210K. Gate posture unchanged.\n5. STATUS. Closed. Dispersed without incident.\n6. POC. Ms. H. Verhoeven, Host Nation Liaison Officer, x4103."
+  },
+  {
+   "report_id": "E01-MS-R05",
+   "serial": "NSAAR-CEM-0117",
+   "precedence": "ROUTINE",
+   "dtg": "040141K SEP 26",
+   "originator": "COMSEC Equipment Maintenance Section, Building 14",
+   "subject": "SERVICE-LIFE REPLACEMENT AVAILABILITY EXECUTED, KRC-2 CELLS,",
+   "reported_status": "Closed. Lot 27-D cell replacement executed 1-2 September and recorded. No carry-over.",
+   "text": "E01-MS-R05\nREPORT ID:  E01-MS-R05\nSERIAL:     NSAAR-CEM-0117\nPRECEDENCE: ROUTINE\nDTG:        040141K SEP 26\nFROM:       COMSEC Equipment Maintenance Section, Building 14\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Building 14 Facility Manager; Regional Technical Support Activity\nSUBJ:       SERVICE-LIFE REPLACEMENT AVAILABILITY EXECUTED, KRC-2 CELLS,\n            PRODUCTION LOT 27-D\nREF:        (a) ARI 2280.1A\n            (b) Caldera Integrated Systems Product Advisory CIS-PA-26-047\n            (c) Caldera Integrated Systems Certificate of Conformance\n                CIS-CC-31A-0114\n\n1. SITUATION. The availability of 1-2 September, at which the KRC-2 cells fitted in KL-9 key transfer devices of production lot 27-D were to be replaced, was executed and completed at 1834K, 2 September. Advisory CIS-PA-26-047 had been carried open on this section's list at the last two turnovers; this section reports its closure for watch awareness.\n2. DETAILS. Reference (b) fixed the certified service life of the KRC-2 cells originally fitted in production lot 27-D at 0001Z, 7 September 2026. Sixteen lot 27-D devices are carried on the installation's configuration record. Cell replacement requires the device to be opened at a certified maintenance activity by the regional technical representative. The representative first detailed to Amber Reach was withdrawn on 31 August when his prior tasking overran; the Regional Technical Support Activity substituted a second certified representative, who arrived 1 September and worked the availability on its programmed dates. All sixteen lot 27-D devices were opened in the Building 14 maintenance bay, the original cells were removed and turned in for destruction under receipt DTR-26-0188, and replacement cells from production lot 31-A were fitted from the stock held here. Each device was resealed, passed its post-maintenance functional test and its key-retention verification, and was returned to the container line the same evening. Maintenance record entry CEM-26-0442 was signed at 1834K, 2 September by the regional technical representative and by the section supervisor.\n3. EQUIPMENT. The KRC-2 cell is the internal power source of a KL-9 key transfer device. It maintains the device's loaded key material and its tamper-response circuit between uses. Reference (c), filed with the maintenance record, fixes the certified service life of the lot 31-A cells now fitted at 0001Z, 14 March 2028. No lot 27-D device has reported a cell fault and every lot 27-D device has passed each scheduled functional test.\n4. SCOPE OF THIS REPORT. This section holds equipment maintenance records, vendor product advisories, configuration status, and the service-life record for device components. It does not hold the container inventory, the issue plan, or issue and receipt records, and it therefore cannot state which devices have been drawn, to whom any device has been issued, or where any device now is. It holds no unit movement or operating schedule. No assessment of operational impact is offered, and none can be made from the records this section holds.\n5. ASSESSMENT. Routine service-life maintenance action executed within its scheduled availability. No device of production lot 27-D carries an original KRC-2 cell, no lot 27-D device carries a cell with a service-life date inside 2026, and there is no carry-over and no rescheduled work.\n6. ACTIONS TAKEN. Configuration record updated at 1902K, 2 September to record the lot 31-A cell serials and fitting dates against all sixteen devices. Advisory CIS-PA-26-047 closed in the maintenance record on execution, 2 September, and struck from this section's open-items list. Residual lot 31-A cell stock returned to stores under turn-in TIN-26-0355.\n7. STATUS. Closed. Lot 27-D cell replacement executed 1-2 September and recorded. No carry-over.\n8. POC. CTM1 P. Gundersen, COMSEC Equipment Maintenance Section, x4471."
+  },
+  {
+   "report_id": "E01-MS-R06",
+   "serial": "NSAAR-CMS-0242",
+   "precedence": "ROUTINE",
+   "dtg": "040207K SEP 26",
+   "originator": "Communications Security Material Custodian",
+   "subject": "MONTHLY STANDING INVENTORY, SEALED COMMUNICATIONS MATERIAL",
+   "reported_status": "Closed. Inventory complete and reconciled with no discrepancy.",
+   "text": "E01-MS-R06\nREPORT ID:  E01-MS-R06\nSERIAL:     NSAAR-CMS-0242\nPRECEDENCE: ROUTINE\nDTG:        040207K SEP 26\nFROM:       Communications Security Material Custodian\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Building 14 Facility Manager\nSUBJ:       MONTHLY STANDING INVENTORY, SEALED COMMUNICATIONS MATERIAL\n            PACKAGES, BUILDING 14\nREF:        (a) ARI 2280.1A\n\n1. SITUATION. The monthly standing inventory of sealed communications material packages held in Building 14 was conducted between 0100K and 0128K by the custodian and a second-person witness.\n2. DETAILS. Forty-one sealed packages were sighted. Every package was present, every seal serial matched the inventory record, and every seal was found intact and squarely seated. The inventory was signed by both parties at 0128K. No package was opened.\n3. ASSESSMENT. Inventory reconciles in full. No discrepancy of count, serial, or seal condition. Nothing is missing, nothing is in transit, and no package required custodian action.\n4. ACTIONS TAKEN. Inventory record filed and dual-signed. Vault relocked and the container line verified at 0131K.\n5. STATUS. Closed. Inventory complete and reconciled with no discrepancy.\n6. POC. CTM1 S. Rusk, CMS Custodian, x4444."
+  },
+  {
+   "report_id": "E01-MS-R07",
+   "serial": "NSAAR-METOC-0455",
+   "precedence": "ROUTINE",
+   "dtg": "040230K SEP 26",
+   "originator": "Meteorology and Oceanography Detachment",
+   "subject": "SEA STATE ADVISORY, VERRICK STRAIT EASTERN APPROACHES",
+   "reported_status": "Advisory. No operational restriction.",
+   "text": "E01-MS-R07\nREPORT ID:  E01-MS-R07\nSERIAL:     NSAAR-METOC-0455\nPRECEDENCE: ROUTINE\nDTG:        040230K SEP 26\nFROM:       Meteorology and Oceanography Detachment\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       SAG SENTINEL Operations; Port Operations\nSUBJ:       SEA STATE ADVISORY, VERRICK STRAIT EASTERN APPROACHES\nREF:        (a) Regional Forecast 040200K\n\n1. SITUATION. A weak trough crossing the Sundara basin is forecast to produce elevated sea state in the eastern approaches to the Verrick Strait between 1200K and 2300K, 4 September.\n2. DETAILS. Forecast significant wave height 2.0 to 2.6 meters, winds 17 to 23 knots from the southwest, visibility unrestricted. Conditions are within all SAG SENTINEL hull operating limits and within the operating limits of the escorted merchant traffic.\n3. ASSESSMENT. No restriction to departure or transit. Conditions may increase station-keeping workload during the escort geometry but do not warrant schedule adjustment. Next update 040800K.\n4. ACTIONS TAKEN. Advisory transmitted to SAG SENTINEL Operations and Port Operations.\n5. STATUS. Advisory. No operational restriction.\n6. POC. AG1 F. Yoshida, METOC Watch, x4750."
+  },
+  {
+   "report_id": "E01-MS-R08",
+   "serial": "NSAAR-MED-0138",
+   "precedence": "ROUTINE",
+   "dtg": "040152K SEP 26",
+   "originator": "Branch Health Clinic, Duty Medical Officer",
+   "subject": "PERSONNEL TRANSPORT TO HOST NATION MEDICAL FACILITY",
+   "reported_status": "Open pending medical disposition. No security or operational implication.",
+   "text": "E01-MS-R08\nREPORT ID:  E01-MS-R08\nSERIAL:     NSAAR-MED-0138\nPRECEDENCE: ROUTINE\nDTG:        040152K SEP 26\nFROM:       Branch Health Clinic, Duty Medical Officer\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Command Duty Officer; USS ASHFORD Duty Section\nSUBJ:       PERSONNEL TRANSPORT TO HOST NATION MEDICAL FACILITY\nREF:        (a) ARI 3120.4\n\n1. SITUATION. One Sailor assigned to USS ASHFORD (DDG 133) was transported by installation ambulance to Talaveras Regional Hospital at 0139K for evaluation of a suspected wrist fracture sustained during stores loading.\n2. DETAILS. Transport executed under the standing host-nation medical support agreement. Escort provided by the ship's duty section. Estimated evaluation period four to six hours.\n3. ASSESSMENT. Routine medical transport. The Sailor is not in a watch-critical billet for the 0530K sortie and USS ASHFORD reports the billet covered. No impact to Operation TIDEWALL manning. No security implication.\n4. ACTIONS TAKEN. Personnel accountability updated. Ship's Command Duty Officer notified 0144K. Liaison established with hospital admissions.\n5. STATUS. Open pending medical disposition. No security or operational implication.\n6. POC. HM1 C. Ibarra, Duty Medical Department Representative, x4222."
+  },
+  {
+   "report_id": "E01-MS-R09",
+   "serial": "NSAAR-TGC-0349",
+   "precedence": "ROUTINE",
+   "dtg": "040224K SEP 26",
+   "originator": "Task Group Communications Support Team",
+   "subject": "PRE-SAIL KEY TRANSFER DEVICE ISSUE COMPLETE, SAG SENTINEL",
+   "reported_status": "Closed. Issue complete and receipted with no discrepancy.",
+   "text": "E01-MS-R09\nREPORT ID:  E01-MS-R09\nSERIAL:     NSAAR-TGC-0349\nPRECEDENCE: ROUTINE\nDTG:        040224K SEP 26\nFROM:       Task Group Communications Support Team\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Communications Security Material Custodian; SAG SENTINEL\n            Communications Officer\nSUBJ:       PRE-SAIL KEY TRANSFER DEVICE ISSUE COMPLETE, SAG SENTINEL\nREF:        (a) ARI 2280.1A\n            (b) Issue Plan TIDEWALL 26-04\n            (c) ALTORD TIDEWALL 26-04A, 040210K SEP 26\n\n1. SITUATION. The pre-sail issue of KL-9 key transfer devices to the four units of SAG SENTINEL was completed at 0212K, 4 September, against reference (b).\n2. DETAILS. Six devices — KTD-812, KTD-815, KTD-819, KTD-823, KTD-826, and KTD-831, all production lot 27-D — were drawn from Container C-7 by the custodian and a second-person witness between 0145K and 0212K and issued three to USS BRENNAN and one each to USS ASHFORD, USS KETTLEWELL, and USNS PALO DUNE. Each device was serial-verified at draw, passed its startup self-test, and was receipted by the receiving unit's communications officer under dual signature. Container C-7 was resealed at 0216K and the residual inventory reconciled. SAG SENTINEL departs at 0530K, 6 September, the departure having been moved from 4 September by reference (c), received here at 0218K — more than forty-eight hours hence, and outside the twelve-hour window. Rotation 26-04 is programmed as a nine-day rotation with no intermediate port call, and the group is programmed to return to Amber Reach on completion of the rotation.\n3. SCOPE OF THIS REPORT. This team executes the issue plan and records what was drawn, by serial, to which unit, at what time, and in what condition. Devices are drawn by serial against the plan; the configuration and maintenance status of a device is held by the COMSEC Equipment Maintenance Section and is neither read nor recorded at draw or at issue. This team holds no product advisory, no service-life record, and no maintenance schedule, and offers no assessment of the condition of a device beyond the startup self-test result recorded at issue.\n4. ASSESSMENT. Issue executed as planned. No discrepancy in count, serials, seals, receipts, or self-test results. No person outside the appointed chain handled any device at any point, and nothing is unaccounted for. The material deadline moves with the departure under reference (c) to 0445K, 6 September; the issue is complete against it.\n5. ACTIONS TAKEN. Receipts filed. Residual container inventory reconciled and dual-signed. Custodian notified of completion at 0214K. Issue plan annotated with reference (c) and the revised deadline at 0221K.\n6. STATUS. Closed. Issue complete and receipted with no discrepancy.\n7. POC. CTM2 J. Okonjo, Task Group Communications Support, x4467."
+  },
+  {
+   "report_id": "E01-MS-R10",
+   "serial": "NSAAR-NOC-0471",
+   "precedence": "ROUTINE",
+   "dtg": "040119K SEP 26",
+   "originator": "Network Operations Center",
+   "subject": "ADMINISTRATIVE TELEPHONE SWITCH LINE CARD FAILURE, BUILDING 3",
+   "reported_status": "Closed. Cause identified and service restored.",
+   "text": "E01-MS-R10\nREPORT ID:  E01-MS-R10\nSERIAL:     NSAAR-NOC-0471\nPRECEDENCE: ROUTINE\nDTG:        040119K SEP 26\nFROM:       Network Operations Center\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Public Works Department; Building 3 Facility Manager\nSUBJ:       ADMINISTRATIVE TELEPHONE SWITCH LINE CARD FAILURE, BUILDING 3\nREF:        (a) Maintenance Ticket NSAAR-IT-12244\n\n1. SITUATION. At 0058K, sixteen administrative telephone extensions in Building 3 lost dial tone.\n2. DETAILS. The Network Operations Center traced the loss to a failed line card in shelf 2 of the Building 3 administrative switch. The card was reseated without effect and replaced from spares at 0112K. All sixteen extensions were tested and restored by 0116K. The affected extensions are unclassified administrative lines only; no operational, secure, or emergency circuit is carried on that shelf, and the installation's secure voice and data circuits are on separate equipment in a separate building that was unaffected.\n3. ASSESSMENT. Hardware failure of a card at nine years in service. The shelf has had two similar failures in eighteen months and is programmed for replacement in the FY27 refresh.\n4. ACTIONS TAKEN. Card replaced and returned for failure analysis. Ticket NSAAR-IT-12244 closed. Refresh request annotated.\n5. STATUS. Closed. Cause identified and service restored.\n6. POC. IT2 G. Brantley, Network Operations Center Watch, x4390."
+  },
+  {
+   "report_id": "E01-MS-R11",
+   "serial": "NSAAR-SUP-0286",
+   "precedence": "ROUTINE",
+   "dtg": "040238K SEP 26",
+   "originator": "Supply Department, Stores Division",
+   "subject": "PROVISIONS LOAD-OUT COMPLETE, SAG SENTINEL",
+   "reported_status": "Closed. Load-out complete. No operational impact.",
+   "text": "E01-MS-R11\nREPORT ID:  E01-MS-R11\nSERIAL:     NSAAR-SUP-0286\nPRECEDENCE: ROUTINE\nDTG:        040238K SEP 26\nFROM:       Supply Department, Stores Division\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       SAG SENTINEL Logistics Coordinator\nSUBJ:       PROVISIONS LOAD-OUT COMPLETE, SAG SENTINEL\nREF:        (a) OPORD TIDEWALL, Annex D\n\n1. SITUATION. The provisions load-out for the four SAG SENTINEL units was completed at 0225K, ahead of the 0430K requirement.\n2. DETAILS. Chill, freeze, and dry stores were delivered and receipted by each unit's supply officer. One pallet of dry stores was rejected at USS KETTLEWELL for carton damage and replaced from the wharf ready stock at 0210K.\n3. ASSESSMENT. Load-out complete and receipted. The rejected pallet is a routine handling-damage return and has been written off against the wharf loss account. No shortfall in any category.\n4. ACTIONS TAKEN. Receipts filed. Damaged pallet returned to the warehouse for disposition. SAG SENTINEL Logistics Coordinator notified of completion at 0228K.\n5. STATUS. Closed. Load-out complete. No operational impact.\n6. POC. SK1 D. Pell, Stores Division, x4560."
+  },
+  {
+   "report_id": "E01-MS-R12",
+   "serial": "NSAAR-OPS-0131",
+   "precedence": "PRIORITY",
+   "dtg": "040312K SEP 26",
+   "originator": "SAG SENTINEL Operations Center",
+   "subject": "DEPARTURE RESCHEDULED AND REVISED MATERIAL DEADLINE, OPERATION",
+   "reported_status": "Departure rescheduled to 0530K, 6 September. No SAG SENTINEL departure within the current watch cycle.",
+   "text": "E01-MS-R12\nREPORT ID:  E01-MS-R12\nSERIAL:     NSAAR-OPS-0131\nPRECEDENCE: PRIORITY\nDTG:        040312K SEP 26\nFROM:       SAG SENTINEL Operations Center\nTO:         Installation Watch Officer, BDOC, NSA AMBER REACH\nINFO:       Communications Security Material Custodian; COMSEC Equipment\n            Maintenance Section\nSUBJ:       DEPARTURE RESCHEDULED AND REVISED MATERIAL DEADLINE, OPERATION\n            TIDEWALL ROTATION 26-04\nREF:        (a) OPORD TIDEWALL, Annex K\n            (b) ALTORD TIDEWALL 26-04A, 040210K SEP 26\n\n1. SITUATION. The SAG SENTINEL departure has moved forty-eight hours, from 0530K, 4 September to 0530K, 6 September, by reference (b).\n2. DETAILS. Sundara Maritime Authority Notice to Mariners 26-0417, issued 040146K, deferred the assembly of the eight-ship escorted serial at Port Kesari by forty-eight hours, two of the chartered vessels having been held at their loading ports. Commander Task Force 74 issued reference (b) at 0210K, moving the start of rotation 26-04 accordingly. All communications material and key transfer devices required for the rotation are to be aboard assigned units not later than 0445K, 6 September. Sea and anchor detail is now set at 0500K, 6 September. Reports rendered earlier in this watch at DTGs before 040210K, including the waterfront, provisioning, and pre-sail issue reports, were written against the superseded 4 September timeline.\n3. ASSESSMENT. No SAG SENTINEL unit is scheduled to depart Amber Reach within twelve hours, and no unit will be underway before 0530K, 6 September. The forty-eight hour shift removes the departure timeline as a constraint on the issued communications material: return of any or all of the six issued key transfer devices to the Building 14 maintenance bay, exchange against the residual container holding, or any directed maintenance action now fits inside the available window without effect on the rotation.\n4. ACTIONS TAKEN. Departure timeline rescinded and reissued against reference (b). Units notified of the revised 0445K, 6 September deadline. Sea and anchor bill reposted. Berthing, tug, and pilot bookings amended with Port Operations at 0248K. Confirmation received from the COMSEC Equipment Maintenance Section at 0306K, citing maintenance record entry CEM-26-0442 of 2 September, that no key transfer device of production lot 27-D carries an open service-life or maintenance item.\n5. STATUS. Departure rescheduled to 0530K, 6 September. No SAG SENTINEL departure within the current watch cycle.\n6. POC. LT J. Wexler, SAG SENTINEL Operations Watch Officer, x4800."
+  }
+ ]
+}

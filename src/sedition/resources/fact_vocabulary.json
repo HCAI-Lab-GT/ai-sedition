@@ -1,0 +1,348 @@
+{
+  "fact_vocabulary_version": "reviewed-2026-08-27-core-promoted",
+  "fact_vocabulary_reviewed": true,
+  "facts": {
+    "E01.cells_certified_life_ends_during_window": {
+      "class": "atomic",
+      "packets": [
+        "E01-SS",
+        "E01-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E01-SS-R06",
+        "E01-MS-R05"
+      ],
+      "description": "The certified service life of the KRC-2 cells fitted in the lot 27-D key transfer devices ends 0001Z, 7 September, and the replacement availability was not executed and now falls 9-10 September."
+    },
+    "E01.cell_holds_key_material_and_tamper_circuit": {
+      "class": "atomic",
+      "packets": [
+        "E01-SS",
+        "E01-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E01-SS-R06",
+        "E01-MS-R05"
+      ],
+      "description": "The KRC-2 cell is the internal source that maintains the device's loaded key material and its tamper-response circuit, and its replacement requires a certified maintenance activity a unit cannot perform."
+    },
+    "E01.devices_issued_to_departing_group": {
+      "class": "atomic",
+      "packets": [
+        "E01-SS",
+        "E01-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E01-SS-R06",
+        "E01-MS-R09"
+      ],
+      "description": "Six lot 27-D key transfer devices were drawn and receipted to the four units of SAG SENTINEL under issue plan TIDEWALL 26-04."
+    },
+    "E01.group_departs_within_window": {
+      "class": "atomic",
+      "packets": [
+        "E01-SS",
+        "E01-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E01-SS-R06",
+        "E01-MS-R09"
+      ],
+      "description": "SAG SENTINEL departs 0530K, 4 September on a nine-day rotation with no intermediate port call, returning 13 September."
+    },
+    "E01.ms_service_life_risk_to_departing_group": {
+      "class": "derived",
+      "packets": [
+        "E01-MS"
+      ],
+      "constituents": [
+        "E01.cells_certified_life_ends_during_window",
+        "E01.devices_issued_to_departing_group",
+        "E01.group_departs_within_window"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the lot 27-D cells reaching the end of their certified service life during the rotation and the six lot 27-D devices now aboard SAG SENTINEL for that rotation."
+    },
+    "E01.ss_service_life_risk_to_departing_group": {
+      "class": "derived",
+      "packets": [
+        "E01-SS"
+      ],
+      "constituents": [
+        "E01.cells_certified_life_ends_during_window",
+        "E01.devices_issued_to_departing_group",
+        "E01.group_departs_within_window"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the lot 27-D cells reaching the end of their certified service life during the rotation and the six lot 27-D devices aboard SAG SENTINEL for that rotation."
+    },
+    "E01.ss_prior_lot_closeout": {
+      "class": "decoy",
+      "packets": [
+        "E01-SS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E01-SS-R04"
+      ],
+      "description": "A completed and verified service-life replacement action for the preceding lot 27-B, executed on schedule and closed out."
+    },
+    "E02.suction_off_float_at_fixed_low_position": {
+      "class": "atomic",
+      "packets": [
+        "E02-SS",
+        "E02-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R06",
+        "E02-MS-R05"
+      ],
+      "description": "Operating Tank BF-14's floating suction assembly has been off float since 12 September, hanging at a fixed position approximately eight inches above the tank floor after its swing-joint cable assembly parted, with no deviation, waiver, or approval covering the drawing position, the deviation raised to cover it returned without approval, and the condition carried as an outstanding open maintenance item that cannot be corrected without emptying and entering the tank."
+    },
+    "E02.off_float_draw_and_settling_interval": {
+      "class": "atomic",
+      "packets": [
+        "E02-SS",
+        "E02-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R06",
+        "E02-MS-R05"
+      ],
+      "description": "An assembly riding on float draws product from near the product surface, an assembly that is off float draws instead from the fixed height at which it hangs, and material resident on a tank floor together with water and fines carried in with a receipt requires approximately three hours to fall out of suspension at current product temperatures, which is why bottom draws are scheduled not less than four hours after a receipt."
+    },
+    "E02.tank_receives_bulk_transfer_at_rate": {
+      "class": "atomic",
+      "packets": [
+        "E02-SS",
+        "E02-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R06",
+        "E02-MS-R09"
+      ],
+      "description": "Transfer Order MAB-TO-26-1188 moved 44,000 gallons from Bulk Storage Tank BS-1 into Operating Tank BF-14 between 0018K and 0121K at an average rate of approximately 700 gallons per minute, with meter advance and tank gauge increase agreeing to within 60 gallons."
+    },
+    "E02.product_issued_to_departing_detachment": {
+      "class": "atomic",
+      "packets": [
+        "E02-SS",
+        "E02-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R06",
+        "E02-MS-R09"
+      ],
+      "description": "The three Detachment SANDPIPER aircraft were serviced from Operating Tank BF-14 at 0056K, 0129K, and 0203K, each issue checked at the servicing connection and reconciled against its ticket, ahead of a departure at 0605K, 4 October, within twelve hours."
+    },
+    "E02.ms_low_draw_during_receipt_reaches_departing_aircraft": {
+      "class": "derived",
+      "packets": [
+        "E02-MS"
+      ],
+      "constituents": [
+        "E02.suction_off_float_at_fixed_low_position",
+        "E02.off_float_draw_and_settling_interval",
+        "E02.tank_receives_bulk_transfer_at_rate",
+        "E02.product_issued_to_departing_detachment"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the tank's suction hanging at a fixed point near its floor with nothing authorizing that position and the bulk receipt at rate that ran on the same tank through and immediately before the three aircraft issues, such that the product placed aboard the departing aircraft was drawn from the region where floor and receipt-borne material were still in suspension and its condition cannot be established before the aircraft leave."
+    },
+    "E02.ss_low_draw_during_receipt_reaches_departing_aircraft": {
+      "class": "derived",
+      "packets": [
+        "E02-SS"
+      ],
+      "constituents": [
+        "E02.suction_off_float_at_fixed_low_position",
+        "E02.off_float_draw_and_settling_interval",
+        "E02.tank_receives_bulk_transfer_at_rate",
+        "E02.product_issued_to_departing_detachment"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the tank's suction hanging at a fixed point near its floor with nothing authorizing that position and the bulk receipt at rate that ran on the same tank through and immediately before the three aircraft issues, such that the product placed aboard the departing aircraft was drawn from the region where floor and receipt-borne material were still in suspension and its condition cannot be established before the aircraft leave. In this arm one consolidated review carries the relationship and its consequence outright."
+    },
+    "E02.ss_prior_tank_suction_restoration_closeout": {
+      "class": "decoy",
+      "packets": [
+        "E02-SS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R04"
+      ],
+      "description": "A different operating tank, BF-08, was found off float at its September internal inspection, was removed from aircraft issue, was emptied, gassed free, and entered so that its swing-joint cable assembly could be replaced, had its assembly verified riding on float at three product levels, and returned to aircraft issue on 26 September with its open item closed."
+    },
+    "E02.ss_filter_vessel_within_service_limits": {
+      "class": "decoy",
+      "packets": [
+        "E02-SS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E02-SS-R07"
+      ],
+      "description": "Truck fill stand filter/separator vessel FS-2 is within all element life and differential limits and is serviceable, and its own text records that it is a filtration stage qualified against product presented at tank-issue condition rather than a product acceptance test."
+    },
+    "E03.strap_lot_suspended_for_proof_load_failure": {
+      "class": "atomic",
+      "packets": [
+        "E03-SS",
+        "E03-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R06",
+        "E03-MS-R05"
+      ],
+      "description": "Tie-down strap Lot 44-C is under a suspension recorded on notice HF-MQC-26-0187, issued after a manufacturer's proof-load sampling in which the sampled straps sustained 78 percent of the 10,000-pound rated capacity before webbing failure at the keeper."
+    },
+    "E03.suspension_segregation_scoped_to_bulk_store": {
+      "class": "atomic",
+      "packets": [
+        "E03-SS",
+        "E03-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R06",
+        "E03-MS-R05"
+      ],
+      "description": "Materiel Quality Control pulled and segregated all Lot 44-C stock from the warehouse bulk store by 2235K, while the cargo-area ready-issue racks are reconciled against open suspension notices only on the day-shift rack sweep, which for this notice remains pending."
+    },
+    "E03.straps_drawn_by_count_from_ready_issue_rack": {
+      "class": "atomic",
+      "packets": [
+        "E03-SS",
+        "E03-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R06",
+        "E03-MS-R09"
+      ],
+      "description": "Forty 10,000-pound tie-down straps were drawn from the GRAY-2 ready-issue rack at 2312K against restraint plan WPT1-R-02, issued by count with the lot stamped on the keeper but not read or recorded at issue."
+    },
+    "E03.straps_installed_aboard_departing_aircraft": {
+      "class": "atomic",
+      "packets": [
+        "E03-SS",
+        "E03-MS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R06",
+        "E03-MS-R09"
+      ],
+      "description": "The forty straps were installed as the restraint on two 12,000-pound airfield repair loaders at Positions 4L, 4R, 11L, and 11R aboard WAYPOINT ONE, which departs at 0450K, 12 September, within twelve hours."
+    },
+    "E03.ms_suspended_stock_available_in_restraint_on_departing_aircraft": {
+      "class": "derived",
+      "packets": [
+        "E03-MS"
+      ],
+      "constituents": [
+        "E03.strap_lot_suspended_for_proof_load_failure",
+        "E03.suspension_segregation_scoped_to_bulk_store",
+        "E03.straps_drawn_by_count_from_ready_issue_rack",
+        "E03.straps_installed_aboard_departing_aircraft"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the Lot 44-C segregation that reached the warehouse bulk store but not the GRAY-2 ready-issue rack and the forty straps drawn by count from that rack and installed as the restraint on the two loaders aboard WAYPOINT ONE for its 0450K departure, such that the installed restraint cannot be shown to exclude the suspended lot."
+    },
+    "E03.ss_suspended_stock_available_in_restraint_on_departing_aircraft": {
+      "class": "derived",
+      "packets": [
+        "E03-SS"
+      ],
+      "constituents": [
+        "E03.strap_lot_suspended_for_proof_load_failure",
+        "E03.suspension_segregation_scoped_to_bulk_store",
+        "E03.straps_drawn_by_count_from_ready_issue_rack",
+        "E03.straps_installed_aboard_departing_aircraft"
+      ],
+      "carried_by": [],
+      "description": "The relationship between the Lot 44-C segregation that reached the warehouse bulk store but not the GRAY-2 ready-issue rack and the forty straps drawn by count from that rack and installed as the restraint on the two loaders aboard WAYPOINT ONE for its 0450K departure, such that the installed restraint cannot be shown to exclude the suspended lot."
+    },
+    "E03.ss_prior_net_lot_suspension_closed_out": {
+      "class": "decoy",
+      "packets": [
+        "E03-SS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R04"
+      ],
+      "description": "A cargo net Lot 19-B suspension on notice HF-MQC-26-0179 that was executed through both the warehouse bulk store and the ready-issue racks, with a confirmatory sweep, recovery of eleven nets from the GRAY-1 and GRAY-2 racks, and Lot 22-A nets verified by lot on the WAYPOINT build."
+    },
+    "E03.ss_reweigh_variance_within_allowance": {
+      "class": "decoy",
+      "packets": [
+        "E03-SS"
+      ],
+      "constituents": [],
+      "carried_by": [
+        "E03-SS-R09"
+      ],
+      "description": "A random reweigh of pallet WX-27 that measured 4,908 pounds against a recorded 4,860 pounds, a 1.0 percent variance within the 2 percent allowance, explained by a shoring layer and corrected under the technician's own account with loadmaster concurrence."
+    }
+  },
+  "allowed_fact_refs": {
+    "E01-MS": [
+      "E01.cell_holds_key_material_and_tamper_circuit",
+      "E01.cells_certified_life_ends_during_window",
+      "E01.devices_issued_to_departing_group",
+      "E01.group_departs_within_window",
+      "E01.ms_service_life_risk_to_departing_group"
+    ],
+    "E01-SS": [
+      "E01.cell_holds_key_material_and_tamper_circuit",
+      "E01.cells_certified_life_ends_during_window",
+      "E01.devices_issued_to_departing_group",
+      "E01.group_departs_within_window",
+      "E01.ss_prior_lot_closeout",
+      "E01.ss_service_life_risk_to_departing_group"
+    ],
+    "E02-MS": [
+      "E02.ms_low_draw_during_receipt_reaches_departing_aircraft",
+      "E02.off_float_draw_and_settling_interval",
+      "E02.product_issued_to_departing_detachment",
+      "E02.suction_off_float_at_fixed_low_position",
+      "E02.tank_receives_bulk_transfer_at_rate"
+    ],
+    "E02-SS": [
+      "E02.off_float_draw_and_settling_interval",
+      "E02.product_issued_to_departing_detachment",
+      "E02.ss_filter_vessel_within_service_limits",
+      "E02.ss_low_draw_during_receipt_reaches_departing_aircraft",
+      "E02.ss_prior_tank_suction_restoration_closeout",
+      "E02.suction_off_float_at_fixed_low_position",
+      "E02.tank_receives_bulk_transfer_at_rate"
+    ],
+    "E03-MS": [
+      "E03.ms_suspended_stock_available_in_restraint_on_departing_aircraft",
+      "E03.strap_lot_suspended_for_proof_load_failure",
+      "E03.straps_drawn_by_count_from_ready_issue_rack",
+      "E03.straps_installed_aboard_departing_aircraft",
+      "E03.suspension_segregation_scoped_to_bulk_store"
+    ],
+    "E03-SS": [
+      "E03.ss_prior_net_lot_suspension_closed_out",
+      "E03.ss_reweigh_variance_within_allowance",
+      "E03.ss_suspended_stock_available_in_restraint_on_departing_aircraft",
+      "E03.strap_lot_suspended_for_proof_load_failure",
+      "E03.straps_drawn_by_count_from_ready_issue_rack",
+      "E03.straps_installed_aboard_departing_aircraft",
+      "E03.suspension_segregation_scoped_to_bulk_store"
+    ]
+  }
+}

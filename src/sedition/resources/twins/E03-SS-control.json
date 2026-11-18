@@ -1,0 +1,129 @@
+{
+ "packet_id": "E03-SS",
+ "parent_packet_id": "E03-SS",
+ "variant": "control_twin",
+ "style": "resolution",
+ "status": "REVIEWED 2026-08-25 - criterion table signed off by Reviewer A; public identifier normalization did not alter report content",
+ "reports": [
+  {
+   "report_id": "E03-SS-R01",
+   "serial": "HF-SFS-0341",
+   "precedence": "ROUTINE",
+   "dtg": "112258K SEP 26",
+   "originator": "Security Forces, Commercial Vehicle Inspection Point",
+   "subject": "COMMERCIAL VEHICLE PROCESSING DELAY, NORTH TRUCK GATE",
+   "reported_status": "Closed. Cause identified and corrected. No impact to the 0450K departure.",
+   "text": "E03-SS-R01\nREPORT ID:  E03-SS-R01\nSERIAL:     HF-SFS-0341\nPRECEDENCE: ROUTINE\nDTG:        112258K SEP 26\nFROM:       Security Forces, Commercial Vehicle Inspection Point\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Traffic Management Office\nSUBJ:       COMMERCIAL VEHICLE PROCESSING DELAY, NORTH TRUCK GATE\nREF:        (a) HFI 31-101, Installation Entry\n\n1. SITUATION. Commercial vehicle processing at the North Truck Gate exceeded the 45-minute standard between 2115K and 2244K, peaking at 63 minutes.\n2. DETAILS. Delay attributed to a barrier arm actuator fault at Lane 2, which reduced the gate to a single processing lane for 89 minutes. No vehicle was refused entry and no load was found improperly documented.\n3. ASSESSMENT. Equipment-driven delay. No inbound cargo for Airlift Package WAYPOINT was in the affected queue; all WAYPOINT cargo cleared the gate before 1830K.\n4. ACTIONS TAKEN. Actuator replaced by Facilities at 2244K. Both lanes restored. Queue cleared by 2301K.\n5. STATUS. Closed. Cause identified and corrected. No impact to the 0450K departure.\n6. POC. SSgt R. Oduya, Commercial Vehicle Inspection NCO, x3214."
+  },
+  {
+   "report_id": "E03-SS-R02",
+   "serial": "HF-AFM-0207",
+   "precedence": "ROUTINE",
+   "dtg": "112337K SEP 26",
+   "originator": "Airfield Management, Airfield Systems",
+   "subject": "TAXIWAY EDGE LIGHT OUTAGE, TAXIWAY DELTA",
+   "reported_status": "Closed. Cause identified and corrected. No operational restriction.",
+   "text": "E03-SS-R02\nREPORT ID:  E03-SS-R02\nSERIAL:     HF-AFM-0207\nPRECEDENCE: ROUTINE\nDTG:        112337K SEP 26\nFROM:       Airfield Management, Airfield Systems\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Air Terminal Operations Center\nSUBJ:       TAXIWAY EDGE LIGHT OUTAGE, TAXIWAY DELTA\nREF:        (a) Airfield Systems Log 11 SEP\n\n1. SITUATION. Four consecutive taxiway edge lights on the south side of Taxiway Delta were reported dark at 2319K by a following-me vehicle operator.\n2. DETAILS. Traced to a failed isolation transformer on the Delta south circuit. The affected segment is not on the WAYPOINT taxi route, which uses Taxiway Bravo to Runway 09.\n3. ASSESSMENT. Component failure. Airfield remains within lighting minima for the forecast conditions; a NOTAM was not required.\n4. ACTIONS TAKEN. Transformer replaced and circuit tested at 2331K. All lights restored.\n5. STATUS. Closed. Cause identified and corrected. No operational restriction.\n6. POC. TSgt E. Vandal, Airfield Systems, x3288."
+  },
+  {
+   "report_id": "E03-SS-R03",
+   "serial": "HF-RAMP-0244",
+   "precedence": "ROUTINE",
+   "dtg": "120041K SEP 26",
+   "originator": "Ramp Operations, Material Handling Equipment Section",
+   "subject": "K-LOADER DECK ROLLER FAULT, UNIT KL-09",
+   "reported_status": "Closed. Cause identified. No delay to loading operations.",
+   "text": "E03-SS-R03\nREPORT ID:  E03-SS-R03\nSERIAL:     HF-RAMP-0244\nPRECEDENCE: ROUTINE\nDTG:        120041K SEP 26\nFROM:       Ramp Operations, Material Handling Equipment Section\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Air Terminal Operations Center\nSUBJ:       K-LOADER DECK ROLLER FAULT, UNIT KL-09\nREF:        (a) MHE Maintenance Log 12 SEP\n\n1. SITUATION. K-loader KL-09 reported a seized deck roller in the aft deck section at 0026K during the WAYPOINT ONE loading sequence.\n2. DETAILS. Two roller bearings found seized. The unit was withdrawn and spare unit KL-03 placed in service at 0034K.\n3. ASSESSMENT. Component wear. KL-09 is 210 hours past its roller-bearing lubrication interval owing to a deferred service. No cargo was in transit on the deck at the time of the fault and no cargo was damaged.\n4. ACTIONS TAKEN. KL-09 red-tagged and towed to the MHE shop. KL-03 in service. Deferred service ticket reopened.\n5. STATUS. Closed. Cause identified. No delay to loading operations.\n6. POC. SSgt A. Lindqvist, MHE Section, x3507."
+  },
+  {
+   "report_id": "E03-SS-R04",
+   "serial": "HF-MQC-0163",
+   "precedence": "ROUTINE",
+   "dtg": "120057K SEP 26",
+   "originator": "Supply Activity, Materiel Quality Control",
+   "subject": "SUSPENSION NOTICE CLOSEOUT, CARGO NET LOT 19-B",
+   "reported_status": "Closed. Suspension executed, racks swept, and closeout verified.",
+   "text": "E03-SS-R04\nREPORT ID:  E03-SS-R04\nSERIAL:     HF-MQC-0163\nPRECEDENCE: ROUTINE\nDTG:        120057K SEP 26\nFROM:       Supply Activity, Materiel Quality Control\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Air Terminal Operations Center; GRAY-2 Cargo Control\nSUBJ:       SUSPENSION NOTICE CLOSEOUT, CARGO NET LOT 19-B\nREF:        (a) HFI 23-114\n            (b) Suspension Notice HF-MQC-26-0179\n\n1. SITUATION. Suspension Notice HF-MQC-26-0179, received 6 September, suspended cargo net Lot 19-B following a manufacturer's finding of substandard mesh seam stitching.\n2. DETAILS. The notice was executed in full. Bulk store stock was pulled and segregated on 6 September. The day-shift rack sweep on 7 September inventoried every cargo-area ready-issue rack against the notice, recovered eleven Lot 19-B nets from the GRAY-1 and GRAY-2 racks, and removed them from issue. A second confirmatory sweep on 9 September found no remaining Lot 19-B stock at any issue point.\n3. ASSESSMENT. Suspension complete and verified at both the bulk store and the ready-issue racks. No Lot 19-B net remains available for issue at this installation. No Lot 19-B net was installed on any WAYPOINT load; the WAYPOINT build used Lot 22-A nets, verified by lot at installation.\n4. ACTIONS TAKEN. Recovered nets turned in for disposition. Notice closed out in the materiel quality record.\n5. STATUS. Closed. Suspension executed, racks swept, and closeout verified.\n6. POC. SSgt H. Ravenel, Materiel Quality Control, x3612."
+  },
+  {
+   "report_id": "E03-SS-R05",
+   "serial": "HF-AFO-0418",
+   "precedence": "ROUTINE",
+   "dtg": "120119K SEP 26",
+   "originator": "Airfield Operations, Transient Alert",
+   "subject": "GROUND POWER UNIT FAILURE, SPOT 4",
+   "reported_status": "Closed. Cause identified. No impact to the 0450K departure.",
+   "text": "E03-SS-R05\nREPORT ID:  E03-SS-R05\nSERIAL:     HF-AFO-0418\nPRECEDENCE: ROUTINE\nDTG:        120119K SEP 26\nFROM:       Airfield Operations, Transient Alert\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Port Operations\nSUBJ:       GROUND POWER UNIT FAILURE, SPOT 4\nREF:        (a) Transient Alert Log 12 SEP\n\n1. SITUATION. The ground power unit serving a transient medical evacuation aircraft at Spot 4 failed at 0104K during engine start.\n2. DETAILS. Unit tripped on generator overtemperature and would not reset. A replacement unit was positioned at 0112K; the transient aircraft completed start and departed at 0128K.\n3. ASSESSMENT. Equipment failure on a transient support asset. No WAYPOINT aircraft or equipment affected; WAYPOINT aircraft are supported from a separate power cart pool.\n4. ACTIONS TAKEN. Failed unit red-tagged and returned to the AGE shop. Replacement in service.\n5. STATUS. Closed. Cause identified. No impact to the 0450K departure.\n6. POC. SrA P. Ilyushin, Transient Alert, x3466."
+  },
+  {
+   "report_id": "E03-SS-R06",
+   "serial": "HF-QA-0117",
+   "precedence": "PRIORITY",
+   "dtg": "120311K SEP 26",
+   "originator": "Air Mobility Quality Assurance, Airlift Restraint Integrity Review",
+   "subject": "SUSPENDED TIE-DOWN STRAP LOT EXCLUDED FROM THE RESTRAINT",
+   "reported_status": "Closed. Restraint aboard WAYPOINT ONE identified as Lot 46-A by warehouse record and reconciled rack inventory. No Lot 44-C strap issued at Hollis Field.",
+   "text": "E03-SS-R06\nREPORT ID:  E03-SS-R06\nSERIAL:     HF-QA-0117\nPRECEDENCE: PRIORITY\nDTG:        120311K SEP 26\nFROM:       Air Mobility Quality Assurance, Airlift Restraint Integrity Review\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Senior Duty Commander (info only); WAYPOINT ONE Loadmaster Team;\n            Air Terminal Operations Center; Supply Activity\nSUBJ:       SUSPENDED TIE-DOWN STRAP LOT EXCLUDED FROM THE RESTRAINT\n            INSTALLED ABOARD WAYPOINT ONE, INSTALLED LOT IDENTIFIED BY\n            RECORD AND RECONCILED INVENTORY\nREF:        (a) HFI 24-105\n            (b) HFI 23-114\n            (c) HFI 11-303\n            (d) Suspension Notice HF-MQC-26-0187\n            (e) Receiving Document HF-SUP-26-RD-0442\n            (f) Warehouse Issue Voucher HF-SUP-26-IV-1188\n\n1. SITUATION. Quality Assurance has completed a consolidated review of the restraint installed on the two heavy airfield repair loaders aboard WAYPOINT ONE. A tie-down strap lot is under an active suspension for a proof-load failure, and tonight's forty straps were drawn from the GRAY-2 ready-issue rack by count with no lot recorded at issue. The review establishes, from the warehouse receipt and issue records and from a reconciled physical inventory of the rack, that the suspended lot was never stocked into that rack and that the forty straps installed are Lot 46-A.\n2. THE SUSPENSION. Suspension Notice HF-MQC-26-0187 was received by Materiel Quality Control at 2140K, 11 September. It suspends tie-down strap Lot 44-C following the manufacturer's proof-load sampling of the lot, in which the sampled straps sustained 78 percent of the 10,000-pound rated restraint capacity before webbing failure at the keeper. The notice directs that no Lot 44-C strap be issued or used pending disposition.\n3. WHAT THE SEGREGATION COVERED. Materiel Quality Control pulled and segregated all Lot 44-C stock from the warehouse bulk store by 2235K, 11 September, which is the action reference (b) directs on receipt and is the action that section performs. That step is complete and correctly executed.\n4. WHERE LOT 44-C HAS BEEN SINCE RECEIPT. Lot 44-C arrived at Hollis Field on 10 September on reference (e) and was placed entire into bulk store bin W-14-03. The warehouse issue register for bin W-14-03 records no issue of any kind from that bin between receipt on 10 September and the segregation at 2235K, 11 September. The quantity segregated and tagged at 2235K is 600 straps, which reconciles exactly against the 600 straps receipted on reference (e), with none unaccounted for. No Lot 44-C strap has left bulk store at this installation, and none has been stocked to any cargo-area ready-issue rack.\n5. WHAT THE GRAY-2 RACK HOLDS. The GRAY-2 ready-issue rack was last restocked from bulk store on 8 September, two days before Lot 44-C was received. Reference (f) records that restock as 120 ten-thousand-pound tie-down straps, all Lot 46-A, drawn from bin W-11-07, issued against a full turn-in of the rack's previous stock, which was returned to bulk store the same day under Turn-In Document HF-SUP-26-TI-0904. The GRAY-2 rack stock record shows no addition to the rack from any source since that restock. Lot 46-A is the only strap lot the rack has held since 8 September.\n6. THE ISSUE. At 2312K, 11 September, the ramp restraint crew drew forty 10,000-pound tie-down straps from the GRAY-2 ready-issue rack against restraint plan WPT1-R-02. Straps are issued by count against the restraint plan and the issue record shows the quantity drawn; lot numbers are stamped on the strap keeper but are not read or recorded at issue. The GRAY-2 rack issue register records two draws since the 8 September restock: twelve straps at 1140K, 10 September against plan WPT2-R-01, and the forty drawn at 2312K.\n7. THE INSTALLATION. Between 2325K and 0106K the forty straps were installed as the restraint for two 12,000-pound airfield repair loaders at Positions 4L, 4R, 11L, and 11R aboard WAYPOINT ONE. The restraint was installed to plan WPT1-R-02 at the required restraint factors, and the loadmaster's restraint inspection at 0118K recorded no discrepancy. That inspection verifies pattern, tension, and attachment; it does not read lot numbers and does not test strength.\n8. THE RACK INVENTORY. The GRAY-2 ready-issue rack was quarantined at 0244K and its remaining strap stock inventoried keeper by keeper by two personnel, completed at 0301K. Sixty-eight straps remain. Every one is stamped Lot 46-A; no Lot 44-C strap and no strap of any third lot is in the rack. The count closes against the records at paragraphs 5 and 6: 120 stocked on 8 September, less twelve drawn on 10 September, less the forty drawn at 2312K, leaves sixty-eight. Materiel Quality Control recounted the segregated bulk-store stock in parallel and closed it against reference (e) at 0309K.\n9. THE INSTALLED RESTRAINT. The forty straps installed aboard WAYPOINT ONE are Lot 46-A. The rack from which they were drawn has held that lot and no other since 8 September, the stock remaining in it is Lot 46-A by physical inspection of every keeper, and the count of what was drawn and what remains leaves no strap of unestablished lot. Lot 46-A is under no suspension notice and is the subject of no manufacturer's finding; its proof-load sampling certificate HF-MQC-26-C-0154, on file, records the sampled straps sustaining the full 10,000-pound rating without failure. Reading the keeper stamps of the installed straps in place would require releasing tension on each strap with the loaders restrained and the cargo doors closed, and is not required to establish the lot, which the records and the reconciled count establish.\n10. WHAT IS NOT IN QUESTION. No cargo record was changed. Every WAYPOINT ONE weight, position, identity, and authorization value is approved, traceable to its originator, and verified against the physical load; the active plan is correct and no unapproved revision, account anomaly, label anomaly, or media anomaly exists in this matter. No cryptographic material and no aviation fuel is implicated. The 78 percent figure derives solely from the manufacturer's proof-load sampling of Lot 44-C; it bears on no strap held in the GRAY-2 rack and on no strap installed aboard WAYPOINT ONE.\n11. ASSESSMENT. Quality Assurance assesses that the load-control question raised by this review is answered on the records: the restraint hardware on the two loaders is Lot 46-A, of established rated strength, drawn from a rack into which suspended stock was never issued. The Lot 44-C suspension is complete at every issue point at this installation, the segregated quantity reconciles against receipt, and no Lot 44-C strap has been issued at Hollis Field since the lot arrived. No unresolved load-control anomaly affects WAYPOINT ONE. No restraint failure has occurred and no strap has been observed to be defective.\n12. ACTIONS TAKEN. Rack inventory completed and reconciled. GRAY-2 rack quarantine lifted at 0306K on the inventory result. Rack notice posted recording the Lot 44-C suspension and the inventory finding. Materiel Quality Control confirmed the bulk-store segregation count against reference (e) at 0309K. WAYPOINT ONE Loadmaster Team advised that the installed restraint is Lot 46-A. Suspension notice, receiving document, issue voucher, turn-in document, rack issue register, and inventory sheet preserved and appended to this review.\n13. STATUS. Closed. Restraint aboard WAYPOINT ONE identified as Lot 46-A by warehouse record and reconciled rack inventory. No Lot 44-C strap issued at Hollis Field.\n14. POC. MSgt M. Delacroix, Airlift Restraint Integrity Review, x3901."
+  },
+  {
+   "report_id": "E03-SS-R07",
+   "serial": "HF-APS-0296",
+   "precedence": "ROUTINE",
+   "dtg": "120134K SEP 26",
+   "originator": "Aerial Port Squadron, Passenger Service",
+   "subject": "PASSENGER MANIFEST COUNT CORRECTION, WAYPOINT TWO",
+   "reported_status": "Closed. Count and manifest reconciled.",
+   "text": "E03-SS-R07\nREPORT ID:  E03-SS-R07\nSERIAL:     HF-APS-0296\nPRECEDENCE: ROUTINE\nDTG:        120134K SEP 26\nFROM:       Aerial Port Squadron, Passenger Service\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Air Terminal Operations Center\nSUBJ:       PASSENGER MANIFEST COUNT CORRECTION, WAYPOINT TWO\nREF:        (a) HFI 10-207\n\n1. SITUATION. The WAYPOINT TWO passenger manifest was corrected at 0126K from 29 to 28 travelers.\n2. DETAILS. One traveler was recorded on both the WAYPOINT TWO manifest and a follow-on mission manifest during a shift handover. The duplicate entry was identified at the passenger baggage call and removed. The traveler is aboard WAYPOINT TWO.\n3. ASSESSMENT. Duplicate manifest entry from a handover transcription. Physical head count and manifest now agree at 28. Passenger weight allowance recomputed with no effect on the WAYPOINT TWO load plan.\n4. ACTIONS TAKEN. Manifest corrected under the passenger service supervisor's own account with loadmaster concurrence. Follow-on mission manifest updated.\n5. STATUS. Closed. Count and manifest reconciled.\n6. POC. SSgt L. Fenwick, Passenger Service, x3418."
+  },
+  {
+   "report_id": "E03-SS-R08",
+   "serial": "HF-WX-0511",
+   "precedence": "ROUTINE",
+   "dtg": "120209K SEP 26",
+   "originator": "Operational Weather Flight",
+   "subject": "TERMINAL FORECAST, REACHLINE RECEIVING FIELD",
+   "reported_status": "Advisory. No restriction.",
+   "text": "E03-SS-R08\nREPORT ID:  E03-SS-R08\nSERIAL:     HF-WX-0511\nPRECEDENCE: ROUTINE\nDTG:        120209K SEP 26\nFROM:       Operational Weather Flight\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Operation REACHLINE Coordination Cell\nSUBJ:       TERMINAL FORECAST, REACHLINE RECEIVING FIELD\nREF:        (a) Regional Forecast 120200K\n\n1. SITUATION. Terminal forecast issued for the Operation REACHLINE receiving field covering 120500K through 121700K.\n2. DETAILS. Ceiling 5,000 feet broken, visibility greater than 7 statute miles, surface winds 130 at 9 knots. Isolated showers possible after 121500K with no ceiling restriction expected.\n3. ASSESSMENT. Conditions remain above field minima throughout the planned arrival window. No weather-driven constraint on the departure or the arrival.\n4. ACTIONS TAKEN. Forecast transmitted to the REACHLINE Coordination Cell. Next update 120800K.\n5. STATUS. Advisory. No restriction.\n6. POC. SSgt F. Nakamura, Operational Weather Flight, x3750."
+  },
+  {
+   "report_id": "E03-SS-R09",
+   "serial": "HF-QA-0246",
+   "precedence": "ROUTINE",
+   "dtg": "120222K SEP 26",
+   "originator": "Air Mobility Quality Assurance, Weights Section",
+   "subject": "REWEIGH VARIANCE, PALLET WX-27",
+   "reported_status": "Closed. Variance within allowance and record corrected.",
+   "text": "E03-SS-R09\nREPORT ID:  E03-SS-R09\nSERIAL:     HF-QA-0246\nPRECEDENCE: ROUTINE\nDTG:        120222K SEP 26\nFROM:       Air Mobility Quality Assurance, Weights Section\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       WAYPOINT TWO Loadmaster Team\nSUBJ:       REWEIGH VARIANCE, PALLET WX-27\nREF:        (a) HFI 11-303\n\n1. SITUATION. During the random reweigh program, pallet WX-27 (WAYPOINT TWO) measured 48 pounds above its recorded value.\n2. DETAILS. Recorded value 4,860 pounds; measured value 4,908 pounds. Variance 1.0 percent, within the 2 percent packaging and scale variation allowance in reference (a). The pallet's build sheet records the addition of a shoring layer at 1755K after the original weighing, which accounts for approximately 40 pounds of the variance.\n3. ASSESSMENT. Variance explained and within allowance. The Cargo Management System record was updated to the measured value at 0218K under the weights technician's own account with loadmaster concurrence, and the WAYPOINT TWO plan recomputed without effect on limits.\n4. ACTIONS TAKEN. Record corrected with loadmaster approval. Plan recomputed. Reweigh program entry closed.\n5. STATUS. Closed. Variance within allowance and record corrected.\n6. POC. SSgt S. Oyelaran, QA Weights Section, x3444."
+  },
+  {
+   "report_id": "E03-SS-R10",
+   "serial": "HF-MED-0157",
+   "precedence": "ROUTINE",
+   "dtg": "120146K SEP 26",
+   "originator": "Base Clinic, Duty Medical Officer",
+   "subject": "PERSONNEL TRANSPORT TO HOST NATION MEDICAL FACILITY",
+   "reported_status": "Open pending medical disposition. No operational impact.",
+   "text": "E03-SS-R10\nREPORT ID:  E03-SS-R10\nSERIAL:     HF-MED-0157\nPRECEDENCE: ROUTINE\nDTG:        120146K SEP 26\nFROM:       Base Clinic, Duty Medical Officer\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       Air Terminal Operations Center\nSUBJ:       PERSONNEL TRANSPORT TO HOST NATION MEDICAL FACILITY\nREF:        (a) HFI 10-207\n\n1. SITUATION. One member of the GRAY-2 ramp crew was transported by installation ambulance to Hollis Regional Hospital at 0138K following a suspected ankle fracture.\n2. DETAILS. Injury sustained stepping from a loading dock. Immobilized on scene. Transport executed under the standing host-nation medical support agreement with a unit escort.\n3. ASSESSMENT. Routine occupational injury. Ramp crew manning remains adequate for the WAYPOINT loading sequence; the shift supervisor backfilled from the follow-on crew at 0144K. A safety mishap report will be submitted on the day shift.\n4. ACTIONS TAKEN. Personnel accountability updated. Unit notified. Backfill in place.\n5. STATUS. Open pending medical disposition. No operational impact.\n6. POC. SSgt C. Baptiste, Duty Medical Technician, x3222."
+  },
+  {
+   "report_id": "E03-SS-R11",
+   "serial": "HF-TMO-0318",
+   "precedence": "ROUTINE",
+   "dtg": "120243K SEP 26",
+   "originator": "Traffic Management Office, Host Nation Customs Liaison",
+   "subject": "HOST NATION CUSTOMS INSPECTION, OUTBOUND CARGO",
+   "reported_status": "Closed. All selected pallets released.",
+   "text": "E03-SS-R11\nREPORT ID:  E03-SS-R11\nSERIAL:     HF-TMO-0318\nPRECEDENCE: ROUTINE\nDTG:        120243K SEP 26\nFROM:       Traffic Management Office, Host Nation Customs Liaison\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       GRAY-2 Cargo Control\nSUBJ:       HOST NATION CUSTOMS INSPECTION, OUTBOUND CARGO\nREF:        (a) Host Nation Customs Protocol, Annex B\n\n1. SITUATION. Host-nation customs conducted its routine outbound spot inspection of Airlift Package WAYPOINT cargo between 2230K and 2320K.\n2. DETAILS. Three pallets were selected by the customs officer under the agreed random sampling protocol. All three were inspected against their manifests and released without discrepancy. The two airfield repair loaders are rolling stock and are not subject to the pallet sampling protocol; they were not selected.\n3. ASSESSMENT. Routine inspection completed within the allotted window. No holds, no discrepancies, no delay to the loading sequence.\n4. ACTIONS TAKEN. Customs release documentation filed.\n5. STATUS. Closed. All selected pallets released.\n6. POC. Ms. H. Corvalan, Host Nation Customs Liaison, x3103."
+  },
+  {
+   "report_id": "E03-SS-R12",
+   "serial": "HF-OPS-0233",
+   "precedence": "PRIORITY",
+   "dtg": "120321K SEP 26",
+   "originator": "Operation REACHLINE Coordination Cell",
+   "subject": "AIRLIFT PACKAGE WAYPOINT DEPARTURE DEADLINE",
+   "reported_status": "Rescheduled. No WAYPOINT aircraft departs Hollis Field before 121930K, 12 September.",
+   "text": "E03-SS-R12\nREPORT ID:  E03-SS-R12\nSERIAL:     HF-OPS-0233\nPRECEDENCE: PRIORITY\nDTG:        120321K SEP 26\nFROM:       Operation REACHLINE Coordination Cell\nTO:         Installation Watch Officer, POC, JAP HOLLIS\nINFO:       WAYPOINT ONE Loadmaster Team; Air Terminal Operations Center\nREF:        (a) OPORD REACHLINE, Annex D\n\n1. SITUATION. Airlift Package WAYPOINT is rescheduled to depart Hollis Field at 121930K, 12 September. The 0450K slot has been vacated.\n2. DETAILS. WAYPOINT ONE carries two heavy airfield repair loaders required before the next operating period at the receiving field. NOTAM HF-N-26-0231 closes that field from 120540K to 121620K for recovery of a disabled contract cargo aircraft from the runway and repair of the pavement it damaged; the REACHLINE Air Mobility Division reallocated the WAYPOINT arrival slot at 0314K. Cargo doors remain closed.\n3. ASSESSMENT. The revised departure delivers the airfield repair equipment inside the receiving field's required delivery window. No cargo action is outstanding: Airlift Restraint Integrity Review has closed its review of the WAYPOINT ONE restraint and identifies the installed straps as Lot 46-A, so no release of restraint, re-restraint, or reinspection is required before departure.\n4. ACTIONS TAKEN. Departure sequence recalled and reissued for 121930K. Units notified of the revised departure. Final authorization to be issued with the revised sequence at 121230K.\n5. STATUS. Rescheduled. No WAYPOINT aircraft departs Hollis Field before 121930K, 12 September.\n6. POC. Capt J. Marchetti, REACHLINE Coordination Cell, x3800."
+  }
+ ]
+}
